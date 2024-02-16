@@ -6,7 +6,68 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <div class="main">
+      <img class="cloud" src="../src/images/cloud.png" />
+      <div class="content">
+        <nav class="navBar">
+          <input type="text" placeholder="search city" />
+        </nav>
+        <div class="row-container">
+          <div class="left-column">
+            <div class="city-description">
+              <h1 class="city-header">SAN DIEGO, CA</h1>
+              <h3 class="weather-description">Mostly Sunny</h3>
+              <div class="temp-and-time">
+                <div class="temp-holder">
+                  <p class="temp">63</p>
+                  <span style="line-height: 0.7; font-weight: 700">o</span
+                  ><span>F</span>
+                </div>
+                <div class="time-and-date">
+                  <p class="date" style="margin-top: 0">
+                    Friday, 16th Feb 2024
+                  </p>
+                  <p class="current-time">11:46 PM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-column">
+            <div class="info-container">
+              <div class="info-item">
+                <p>Feels like</p>
+                <p class="metric">59</p>
+              </div>
+              <div class="info-item">
+                <p>Humidty</p>
+                <p class="metric">50%</p>
+              </div>
+              <div class="info-item">
+                <p>Wind</p>
+                <p class="metric">15mph</p>
+              </div>
+              <div class="info-item">
+                <p>Chance of rain</p>
+                <p class="metric">10%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <h1>Hello World</h1>
+    <img class="cloud-image" src="../src/images/cloud.png" />
+    <form class="search-form">
+      <input
+        type="text"
+        id="cityInput"
+        name="search"
+        placeholder="Search city"
+      />
+      <button type="submit" id="searchButton" class="button" title="Search">
+        search
+      </button> -->
+    <!-- </form> -->
     <script src="main.js"></script>
   </body>
 </html>
