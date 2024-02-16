@@ -2,28 +2,26 @@ import "./index.css";
 import { App } from "./app";
 import fetchWeather from "./weatherAPI";
 
-console.log("Hello world");
 const newApp = App();
-console.log(newApp.ready());
 
-async function main() {
-  const city = prompt("Enter the city name:");
+const form = document.querySelector(".search-form");
+
+form.addEventListener("submit", async (e) => {
+  e.preventDefault(); // Prevent default form from being submitted
+  console.log("running");
+  const searchInput = document.querySelector("input[type=text]");
+  const city = cityInput.value;
+
+  console.log(city);
+
   const results = await fetchWeather(city);
 
-  console.log("results", results);
-}
+  let temp = results.current.temp_f;
+  let condition = results.current.condition.text;
+  let feelsLike = results.current.feelslike_f;
+  let wind = results.current.wind_mph;
+  let Humidy = results.current.humidity;
+  let rainChance = results.forecast.forecastday[0].day.daily_chance_of_rain;
 
-main();
-// fetch(
-//   "http://api.weatherapi.com/v1/current.json?key=03d984259a17467b965230209241201&q=San Diego",
-//   { mode: "cors" }
-// )
-//   .then(function (response) {
-//     return response.json();
-//   })
-//   .then(function (response) {
-//     console.log(response);
-//   })
-//   .catch(function (err) {
-//     console.error(err);
-//   });
+  console.log("rainChance", rainChance);
+});
