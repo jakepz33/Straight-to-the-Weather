@@ -67,13 +67,13 @@ input[type="text"] {
 
 /*  LEFT COLUMN */
 .city-header {
-  font-size: 80px;
+  font-size: 40px;
   margin-top: 75px;
   margin-bottom: 5px;
 }
 .weather-description {
   margin-top: 5px;
-  font-size: 50px;
+  font-size: 25px;
   font-weight: 400;
 }
 .temp-and-time {
@@ -101,15 +101,21 @@ input[type="text"] {
   height: fit-content;
   margin-top: 20px;
   padding-left: 15px;
-  font-size: 25px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
 }
 .date {
   margin-bottom: 5px;
 }
 .current-time {
   margin-top: 5px;
+  margin-bottom: 5px;
 }
-
+.high-low {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
 /* RIGHT COLUMN */
 .right-column {
   background-color: transparent;
@@ -131,8 +137,31 @@ input[type="text"] {
   margin-top: 5px;
   margin-bottom: 5px;
   color: white;
-  font-size: 18px;
+  font-size: 19px;
 }
 .metric {
   font-weight: bold;
+}
+
+.material-symbols-outlined {
+  font-size: 20px;
+  color: white;
+}
+.icon-text {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.feelsLike-holder {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+}
+
+.temp-symbol {
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
 }

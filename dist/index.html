@@ -13,13 +13,18 @@
     <div class="main">
       <img class="cloud" src="../src/images/cloud.png" />
       <div class="content">
-        <nav class="navBar">
-          <input type="text" placeholder="search city" />
-        </nav>
+        <form class="navBar search-form">
+          <input
+            type="text"
+            placeholder="search city"
+            id="cityInput"
+            name="search"
+          />
+        </form>
         <div class="row-container">
           <div class="left-column">
             <div class="city-description">
-              <h1 class="city-header">SAN DIEGO, CA</h1>
+              <h1 class="city-header">SAN DIEGO, CALIFORNIA</h1>
               <h3 class="weather-description">Mostly Sunny</h3>
               <div class="temp-and-time">
                 <div class="temp-holder">
@@ -32,6 +37,9 @@
                     Friday, 16th Feb 2024
                   </p>
                   <p class="current-time">11:46 PM</p>
+                  <p class="high-low">
+                    <span>High: 77</span> <span>Low: 53</span>
+                  </p>
                 </div>
               </div>
             </div>
@@ -39,34 +47,45 @@
           <div class="right-column">
             <div class="info-container">
               <div class="info-item">
-                <p>
-                  <span class="material-symbols-outlined">thermostat</span>Feels
-                  like
+                <p class="icon-text">
+                  <span class="material-symbols-outlined">thermostat</span>
+                  FEELS LIKE:
                 </p>
-                <p class="metric">59</p>
+                <!-- <p class="metric" id="feels-like-metric">59</p> -->
+                <div class="feelsLike-holder">
+                  <p class="temp">63</p>
+                  <span
+                    class="temp-symbol"
+                    style="line-height: 0.7; font-weight: 400"
+                    >o</span
+                  ><span class="temp-symbol">F</span>
+                </div>
               </div>
               <div class="info-item">
-                <p>
-                  <span class="material-symbols-outlined">water</span>Humidty
+                <p class="icon-text">
+                  <span class="material-symbols-outlined">water</span>HUMIDITY:
                 </p>
-                <p class="metric">50%</p>
+                <p class="metric" id="humidity-metric">50%</p>
               </div>
               <div class="info-item">
-                <p><span class="material-symbols-outlined">air</span>Wind</p>
-                <p class="metric">15mph</p>
+                <p class="icon-text">
+                  <span class="material-symbols-outlined">air</span>WIND:
+                </p>
+                <p class="metric" id="wind-metric">15mph</p>
               </div>
               <div class="info-item">
-                <p>
-                  <span class="material-symbols-outlined">rainy_light</span
-                  >Chance of rain
+                <p class="icon-text">
+                  <span class="material-symbols-outlined">rainy_light</span>
+                  CHANCE OF RAIN:
                 </p>
-                <p class="metric">10%</p>
+                <p class="metric" id="rain-metric">10%</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- LINE HEIGHT FOR ICONS LOOK IT UP -->
     <!-- <h1>Hello World</h1>
     <img class="cloud-image" src="../src/images/cloud.png" />
     <form class="search-form">
