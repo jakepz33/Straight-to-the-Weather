@@ -2,7 +2,6 @@
   font-family: "Sans";
 }
 body {
-  /* background-color: antiquewhite; */
   margin: 0;
   padding: 0;
 }
@@ -45,7 +44,6 @@ body {
   flex-direction: column;
   color: lightblue;
   align-items: end;
-  /* background-color: lightblue; */
 }
 input[type="text"] {
   float: right;
@@ -72,18 +70,12 @@ input[type="text"] {
   color: white;
   height: 100%;
   position: relative;
-  /* padding-top: 50px; */
-  /* display: flex;
-  align-items: center; */
 }
 .city-description {
   position: absolute;
   top: 15%;
 }
-/* .slide-in {
-  opacity: 1;
-  transform: translate(0);
-} */
+
 .slide-In1 {
   animation: slide-In1 0.8s;
 }
@@ -127,7 +119,6 @@ input[type="text"] {
   display: flex;
   flex-direction: row;
   width: 100%;
-  /* background-color: beige; */
   gap: 15px;
 }
 .temp-holder {
@@ -139,7 +130,6 @@ input[type="text"] {
 }
 .temp {
   margin-top: 0;
-  /* padding-top:  */
   font-size: 140px;
   line-height: 1;
 }
@@ -166,15 +156,12 @@ input[type="text"] {
 /* RIGHT COLUMN */
 .right-column {
   background-color: transparent;
-  /* width: 100%;
-   */
   width: 40%;
   height: 100%;
   display: flex;
   justify-content: center;
 }
 .info-container {
-  /* float: right; */
   display: flex;
   flex-direction: column;
   margin-top: 30%;

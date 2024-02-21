@@ -44,18 +44,6 @@ form.addEventListener("submit", async (e) => {
       cityDiv.classList.add("slide-In2");
     }
   }
-
-  // cityDescription(results);
-  // getMetrics(results);
-
-  // if (cityDiv.classList.contains("slide-In2")) {
-  //   cityDiv.classList.remove("slide-In2");
-  //   cityDiv.offsetWidth;
-  //   cityDiv.classList.add("slide-In2");
-  // } else {
-  //   cityDiv.classList.add("slide-In2");
-  // }
-  console.log("rainChance", results);
 });
 
 function throwError() {
@@ -72,13 +60,4 @@ function throwError() {
   } else {
     errorMessage.classList.add("slide-In1");
   }
-  // if (errorMessage.classList.contains("slide-In1")) {
-  //   errorMessage.style.display = "none";
-  //   errorMessage.classList.remove("slide-In2");
-  //   errorMessage.offsetWidth;
-  //   errorMessage.classList.add("slide-In1");
-  //   errorMessage.style.display = "block";
-  // } else {
-  //   errorMessage.classList.add("slide-In1");
-  // }
 }

@@ -5,7 +5,6 @@ export default async function fetchWeather(city) {
   );
 
   if (response.status === 400) {
-    // throw new Error("City not found");
     return false;
   } else {
     const weatherData = await response.json();
