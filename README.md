@@ -2,15 +2,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+![image](https://github.com/jakepz33/Straight-to-the-Weather/assets/113931214/fb8b2308-96c8-4850-9f47-aea0e1490d5d)
 
 
 Learning project from [The Odin Project](https://www.theodinproject.com/lessons/node-path-javascript-weather-app) curriculum.
 
 ### Features
 
-* Get current and weekly forecast.
+* Get the Daily forecast
 * Search cities worldwide.
-* Switch between imperial and metric systems.
 * Responsive design.
 
 ### Built With
@@ -23,9 +23,7 @@ Learning project from [The Odin Project](https://www.theodinproject.com/lessons/
 
 #### Third party code
 
-* [date-fns](https://date-fns.org/)
 * [Google Fonts](https://fonts.google.com/)
-* [Font Awesome](https://fontawesome.com/)
 
 #### Tools
 
@@ -88,8 +86,7 @@ You will need `Node.js` and `npm` installed globally on your machine.
 * Used revealing module pattern for better code organizing.
 * Used public API to get data.
 * Used Webpack to build the app.
-* Used third-party library for date and time formating.
-* Used CSS3 grid and flex to create layout.
+* Used CSS3 flex to create layout.
 * Used HTML5 semantic elements for better readability and structure.
 * Used Git and GitHub for project management.
 * Learned error handling a bit.
@@ -103,7 +100,7 @@ You will need `Node.js` and `npm` installed globally on your machine.
 <!-- AUTHORS -->
 ## Authors
 
-[ArtisDev]((https://github.com/artis-dev)) - [LinkedIn](https://linkedin.com/in/ArtisDev) - artguk@protonmail.com
+[LinkedIn](https://www.linkedin.com/in/jacob-perez377/) 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
