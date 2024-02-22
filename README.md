@@ -1,18 +1,109 @@
-# weather-API-App
+# GET TODAYS FORECAST
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Main data we need are:
 
-- Location
-- temperature
-- condition: text "partly cloudy"
-- feels like
-- wind
-- Humidity
-- Chance of rain
-- MAYBE:
-  - sunset, sunrise
-  - High - low
 
-Current weather and Forecast
+Learning project from [The Odin Project](https://www.theodinproject.com/lessons/node-path-javascript-weather-app) curriculum.
 
-<div style="width:480px"><iframe allow="fullscreen" frameBorder="0" height="270" src="https://giphy.com/embed/t0mcv3NElJplBkvJi0/video" width="480"></iframe></div>
+### Features
+
+* Get current and weekly forecast.
+* Search cities worldwide.
+* Switch between imperial and metric systems.
+* Responsive design.
+
+### Built With
+
+#### Technologies
+
+* JavaScript
+* CSS
+* HTML
+
+#### Third party code
+
+* [date-fns](https://date-fns.org/)
+* [Google Fonts](https://fonts.google.com/)
+* [Font Awesome](https://fontawesome.com/)
+
+#### Tools
+
+* Visual Studio Code
+* Linux terminal
+* Git and GitHub
+* Webpack
+* ESLint + Airbnb JavaScript Style Guide
+* Prettier
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+You will need `Node.js` and `npm` installed globally on your machine.
+* [Downloading and installing Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
+### Installation
+
+1. Get a free API key at [https://openweathermap.com](https://openweathermap.com)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/Artis-Dev/weather-app.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API key in `./src/api.js`
+   ```js
+   const API_KEY = 'YOUR API KEY';
+   ```
+5. Build an app
+   ```sh
+   npm run build
+   ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+## Usage
+
+* Open `./dist/index.html` file with browser.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- OUTCOME -->
+## Outcome
+
+* Used revealing module pattern for better code organizing.
+* Used public API to get data.
+* Used Webpack to build the app.
+* Used third-party library for date and time formating.
+* Used CSS3 grid and flex to create layout.
+* Used HTML5 semantic elements for better readability and structure.
+* Used Git and GitHub for project management.
+* Learned error handling a bit.
+* Tried to maintain clean code.
+* Cross tested on Firefox and Chromium based browsers.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- AUTHORS -->
+## Authors
+
+[ArtisDev]((https://github.com/artis-dev)) - [LinkedIn](https://linkedin.com/in/ArtisDev) - artguk@protonmail.com
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
