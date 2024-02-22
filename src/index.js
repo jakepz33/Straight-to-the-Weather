@@ -13,7 +13,6 @@ window.onload = async function () {
   cityDiv.classList.add("slide-In2");
   const defaultCity = "San Francisco";
   const results = await fetchWeather(defaultCity);
-  console.log("Initial load");
 
   cityDescription(results);
   getMetrics(results);
@@ -26,8 +25,6 @@ form.addEventListener("submit", async (e) => {
   const searchInput = document.querySelector("input[type=text]");
   const city = searchInput.value;
   searchInput.value = "";
-
-  console.log(city);
 
   const results = await fetchWeather(city);
 
