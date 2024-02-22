@@ -1,10 +1,8 @@
 import "./styles/index.css";
-import { App, cityDescription } from "./app";
+import { cityDescription } from "./app";
 import getMetrics from "./metrics";
 import fetchWeather from "./weatherAPI";
 import cloud from "./images/cloud.png";
-
-const newApp = App();
 
 const form = document.querySelector(".search-form");
 const backgroundImg = document.querySelector(".cloud");

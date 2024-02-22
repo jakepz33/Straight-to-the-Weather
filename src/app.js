@@ -1,14 +1,6 @@
 import { convertTime12HourFormat } from "./convertTime12HourFormat";
 import { formatDate } from "./formatDate";
 
-const App = function () {
-  function ready() {
-    return "HELLO READY";
-  }
-
-  return { ready };
-};
-
 function cityDescription(results) {
   const timeAndDate = results.location.localtime.split(" ");
   const currentTime = timeAndDate[1];
