@@ -40,4 +40,4 @@ function displayData(resultsObj) {
   min_temp.textContent = `Low: ${resultsObj.low}`;
 }
 
-export { App, cityDescription };
+export { cityDescription };
